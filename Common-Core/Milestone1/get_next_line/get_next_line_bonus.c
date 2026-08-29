@@ -14,7 +14,7 @@
 
 /// @brief Function that updates the stash
 /// @param stash The gnl_stash
-/// @return The line to return to the user/console(MEJORAR ESTE COMENTARIO)
+/// @return The line to return
 /// @author jgilaber
 static char	*ft_update_stash(char **stash)
 {
@@ -45,7 +45,7 @@ static char	*ft_update_stash(char **stash)
 
 /// @brief Function that reads the file and updates the stack
 /// with the rest of the line after the delimiter
-/// @param fd The file descriptor of the file
+/// @param fd The file descriptor of the file to read
 /// @param stash The stash tu update with the rest of the line
 /// @return The readed line
 /// @author jgilaber

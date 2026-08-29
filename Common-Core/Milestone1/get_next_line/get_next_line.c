@@ -14,7 +14,7 @@
 
 /// @brief Function that updates the stash
 /// @param stash The gnl_stash
-/// @return The line to return to the user/console(MEJORAR ESTE COMENTARIO)
+/// @return The line to return
 /// @author jgilaber
 static char	*ft_update_stash(char **stash)
 {
